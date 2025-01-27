@@ -1,4 +1,5 @@
-# [Title]
+# [Add the main PR title here]
+(This title should denote main purpose of this PR concisely)
 
 ## Description
 
@@ -20,6 +21,10 @@
 ## Technical Context
 
 [ Add technical context here ]
+
+## Dependencies
+
+[ Add any dependencies that may be required ]
 
 ## How to test
 
