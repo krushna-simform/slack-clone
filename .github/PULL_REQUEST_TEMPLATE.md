@@ -1,11 +1,8 @@
-# [Add the main PR title here]
-(This title should denote main purpose of this PR concisely)
-
-## Description
+# Description
 
 [ Add description here ]
 
-## Type of change
+# Type of change
 
 - [ ] Bug fix
 - [ ] New feature
@@ -14,18 +11,18 @@
 - [ ] Performance improvement
 - [ ] Scaffolding
 
-## Screenshots
+# Screenshots
 
 [ Add screenshots here ]
 
-## Technical Context
+# Technical Context
 
 [ Add technical context here ]
 
-## Dependencies
+# Dependencies
 
 [ Add any dependencies that may be required ]
 
-## How to test
+# How to test
 
 [ Add steps of how to test ]
