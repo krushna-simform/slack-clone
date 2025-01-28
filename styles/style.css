@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    max-width: 120rem;
+    margin: auto;
+}
+
+/* header */
+
+.header{
+    height: 2.75rem;
+    border: 1px solid black;
+}
+
+/* main-section */
+
+.main-section{
+    display: flex;
+}
+
+/* aside */
+
+.aside{
+    width: 15.25rem;
+    border: 1px solid black;
+    height: calc(100vh - 2.75rem);
+}
+
+/* main */
+
+.main{
+    border: 1px red solid;
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .aside{
+        display: none;
+    }
+}
