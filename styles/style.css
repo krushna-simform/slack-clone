@@ -33,7 +33,10 @@ body{
     flex: 1;
 }
 
-/* media query */
+/* 
+ When width of the screen becomes less then 600px, the aside section is removed.
+ This create more space for main section.
+*/
 @media (max-width: 600px) {
     .aside{
         display: none;
