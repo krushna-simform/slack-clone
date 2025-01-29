@@ -22,24 +22,24 @@
 <body>
     <header class="header">
         <div id="header-buttons">
-            <div id="close" title="close"></div>
-            <div id="minimize" title="minimize"></div>
-            <div id="resize" title="resize"></div>
+            <button id="close" title="Close window" aria-label="close window"></button>
+            <button id="minimize" title="Minimize window" aria-label="minimize window"></button>
+            <button id="resize" title="Resize window" aria-label="resize window"></button>
         </div>
         <div id="header-searchbar-div">
-            <button title="Recent Activity"><img src="/icons/clock.svg" alt="clock icon for recent Activity"></button>
-            <input type="text" id="header-searchbar" placeholder="Search A1 Marketing Ltd.">
+            <button title="Recent activity" aria-label="View recent activity"><img src="/icons/clock.svg" alt="clock icon for recent Activity"></button>
+            <input type="text" id="header-searchbar" placeholder="Search A1 Marketing Ltd." aria-label="Search workplace">
         </div>
         <div id="image-container">
             <img src="/images/header-image.png" alt="profile image for your profile section" id="profile-image">
-            <div id="green-dot"></div>
+            <div id="green-dot" role="status" aria-label="online"></div>
         </div>
     </header>
     <div class="main-section">
-        <aside class="aside">
+        <aside class="aside" aria-label="Sidebar navigation">
             aside
         </aside>
-        <main class="main">
+        <main class="main" aria-label="Main content">
             main
         </main>
     </div>
