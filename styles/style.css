@@ -10,20 +10,17 @@ body{
 }
 
 /* header */
-
 .header{
     height: 2.75rem;
     border: 1px solid black;
 }
 
 /* main-section */
-
 .main-section{
     display: flex;
 }
 
 /* aside */
-
 .aside{
     width: 15.25rem;
     border: 1px solid black;
@@ -31,12 +28,12 @@ body{
 }
 
 /* main */
-
 .main{
     border: 1px red solid;
     flex: 1;
 }
 
+/* media query */
 @media (max-width: 600px) {
     .aside{
         display: none;
