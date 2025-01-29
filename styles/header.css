@@ -38,6 +38,7 @@
     border-radius: 0.3rem;
     text-align: center;
     margin-left: 0.625rem;
+    color: #ffffff;
     transition: width 0.3 ease; /* easy transition when media query apply to searchbar */
 }
 
