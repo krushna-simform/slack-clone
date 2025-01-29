@@ -1,4 +1,10 @@
-#header-buttons button{
+#header-buttons{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+#header-buttons div{
     height: 0.8rem;
     width: 0.8rem;
     border: none;
