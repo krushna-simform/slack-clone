@@ -1,1 +1,57 @@
 /* aside project title  */
+#project-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px 10px 10px;
+    border-top: #531d4f 1px solid;
+    border-bottom: #531d4f 1px solid;
+}
+
+#project-title-name{
+    display: flex;
+    cursor: pointer;
+}
+
+#project-title-name>p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 4px;
+    font-weight: 700;
+}
+
+#edit-logo{
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* aside tools */
+#tools{
+    padding: 0px 16px 0px 10px;
+    border-bottom: #531d4f solid 1px;
+}
+
+.tools-icon{
+    display: flex;
+    align-items: center;
+    margin: 14px 0 14px 0;
+}
+
+.tools-icon>img{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.tools-icon>a{
+    text-decoration: none;
+    color: #ece4e4;
+    font-size: 15px;
+}
