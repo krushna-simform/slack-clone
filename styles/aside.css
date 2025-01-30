@@ -20,6 +20,11 @@
     font-weight: 700;
 }
 
+#project-title-name button{
+    background-color: #3F0E40;
+    border: none;
+}
+
 #edit-logo{
     background-color: #ffffff;
     border-radius: 50%;
@@ -36,6 +41,11 @@
 #tools{
     padding: 0px 16px 0px 10px;
     border-bottom: #531d4f solid 1px;
+}
+
+#tools a{
+    text-decoration: none;
+    color: #ece4e4;
 }
 
 .tools-icon{

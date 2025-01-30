@@ -42,45 +42,55 @@
 
     <!-- aside and main section  -->
     <div class="main-section">
-        <!-- aside section  -->
-        <aside class="aside" aria-label="Sidebar navigation">
 
-            <!-- aside project title  -->
-            <div id="project-title" aria-label="Sidebar project title">
-                <div id="project-title-name" aria-label="Project title">
-                    <p aria-label="Project title name">Acme</p>
-                    <img src="/assets/icons/dropdown.svg" alt="project title select dropdown button">
-                </div>
-                <button id="edit-logo" title="Edit project title" aria-label="Edit project title">
-                    <img src="/assets/icons/edit.svg" alt="project title edit logo">
-                </button>
+        <!-- Sidebar navigation -->
+        <nav class="aside" aria-label="Sidebar navigation">
+          <!-- Project title section -->
+          <div id="project-title">
+            <div id="project-title-name">
+              <p id="project-name">Acme</p>
+              <button id="project-dropdown" aria-label="Select project" title="Select project">
+                <img src="/assets/icons/dropdown.svg" alt="Dropdown menu logo">
+              </button>
             </div>
-
-            <!-- aside tools -->
-            <ul id="tools" aria-label="Sidebar tools">
-                <li class="tools-icon" aria-label="Open canvases tool" tabindex="0">
-                    <img src="/assets/icons/canvas.svg" alt="canvases tool">
-                    <a href="#" target="_self">Canvases</a>
-                </li>
-                <li class="tools-icon" aria-label="Open slack content tool" tabindex="0">
-                    <img src="/assets/icons/slack-content.svg" alt="slack content tool">
-                    <a href="#" target="_self">Slack Content</a>
-                </li>
-                <li class="tools-icon" aria-label="Open files tool" tabindex="0">
-                    <img src="/assets/icons/files.svg" alt="files tool">
-                    <a href="#" target="_self">Files</a>
-                </li>
-                <li class="tools-icon" aria-label="Open browser slack tool" tabindex="0">
-                    <img src="/assets/icons/three-dots-vertical.svg " alt="browser slack tool">
-                    <a href="#" target="_self">Browser Slack</a>
-                </li>
-            </ul>
-
-        </aside>
-
+            <button id="edit-logo" aria-label="Edit project title" title="Edit project title">
+              <img src="/assets/icons/edit.svg" alt="Edit project title">
+            </button>
+          </div>
+       
+          <!-- Sidebar tools -->
+          <ul id="tools" aria-label="Project tools">
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open canvases tool">
+                <img src="/assets/icons/canvas.svg" alt="Canvas tool">
+                <span>Canvases</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open Slack content tool">
+                <img src="/assets/icons/slack-content.svg" alt="Slack content tool">
+                <span>Slack Content</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open files tool">
+                <img src="/assets/icons/files.svg" alt="Files tool">
+                <span>Files</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open browser Slack tool">
+                <img src="/assets/icons/three-dots-vertical.svg" alt="Browser Slack tool">
+                <span>Browser Slack</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+       
+        <!-- Main content section -->
         <main class="main" aria-label="Main content">
             main
         </main>
-    </div>
+      </div>
 </body>
 </html>
