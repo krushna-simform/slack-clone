@@ -83,7 +83,7 @@
 }
 
 /* 
-when width of the screen becomes less then 768px,
+when width of the screen becomes less than 768px,
 then header searchbar width is becomes 15rem
 */
 @media (max-width: 768px) {
@@ -93,8 +93,8 @@ then header searchbar width is becomes 15rem
 }
 
 /* 
-when width of the screen becomes less then 480px,
-then header searchbar width is becomes 10rem and header-button margin become 0
+when width of the screen becomes less than 480px,
+then header searchbar width becomes 10rem and header-button margin become 0
 */
 @media (max-width: 480px) {
     #header-searchbar-div{
