@@ -17,6 +17,7 @@
     <link rel="icon" href="/assets/icons/slack.svg">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/aside.css">
     <title>Slack Skeleton UI</title>
 </head>
 <body>
@@ -41,13 +42,189 @@
 
     <!-- aside and main section  -->
     <div class="main-section">
-        <aside class="aside" aria-label="Sidebar navigation">
-            aside
-        </aside>
 
+        <!-- Sidebar navigation -->
+        <aside class="aside" aria-label="Sidebar navigation">
+          <!-- Project title section -->
+          <div id="project-title">
+            <div id="project-title-name">
+              <p id="project-name" tabindex="0">Acme</p>
+              <button id="project-dropdown" aria-label="Select project" title="Select project">
+                <img src="/assets/icons/dropdown.svg" alt="Dropdown menu logo">
+              </button>
+            </div>
+            <button id="edit-logo" aria-label="Edit project title" title="Edit project title">
+              <img src="/assets/icons/edit.svg" alt="Edit project title">
+            </button>
+          </div>
+       
+          <!-- Sidebar tools -->
+          <ul id="tools" aria-label="Project tools">
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open canvases tool" role="button">
+                <img src="/assets/icons/canvas.svg" alt="Canvas tool">
+                <span>Canvases</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open Slack content tool" role="button">
+                <img src="/assets/icons/slack-content.svg" alt="Slack content tool">
+                <span>Slack Content</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open files tool" role="button">
+                <img src="/assets/icons/files.svg" alt="Files tool">
+                <span>Files</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="tools-icon" aria-label="Open browse Slack tool" role="button">
+                <img src="/assets/icons/three-dots-vertical.svg" alt="Browse Slack tool">
+                <span>Browse Slack</span>
+              </a>
+            </li>   
+          </ul>
+
+          <!-- sidebar channels -->
+           <ul id="channels">
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open channel button" role="button">
+                    <img src="/assets/icons/open-channels-button.svg" alt="Open channel button">
+                    <span>Channels</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open general channel" role="button">
+                    <img src="/assets/icons/hash.svg" alt="General channel">
+                    <span>general</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open marketing channel" role="button">
+                    <img src="/assets/icons/hash.svg" alt="Marketing channel">
+                    <span>marketing</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open product channel" role="button">
+                    <img src="/assets/icons/hash.svg" alt="Product channel">
+                    <span>product</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open sales channel" role="button">
+                    <img src="/assets/icons/hash.svg" alt="Sales channel">
+                    <span>sales</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open operations channel" role="button">
+                    <img src="/assets/icons/hash.svg" alt="Operations channel">
+                    <span>operations</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open fundraising channel" role="button">
+                    <img src="/assets/icons/lock.svg" alt="Fundraising channel">
+                    <span>fundraising</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open leadership channel" role="button">
+                    <img src="/assets/icons/lock.svg" alt="Leadership channel">
+                    <span>leadership</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="channels-icon" aria-label="Open channels" role="button">
+                    <img src="/assets/icons/frame-33.svg" alt="Add channels">
+                    <span>Add channels</span>
+                </a>
+            </li>
+           </ul>
+
+           <!-- sidebar message contects -->
+            <ul id="messages">
+             <li>
+                <a href="#" class="messages-icon" aria-label="Direct message" role="button">
+                    <img src="/assets/icons/open-channels-button.svg" alt="message dropdown">
+                    <span>Direct messages</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="messages-icon" aria-label="Open slackbot chat" role="button">
+                    <img src="/assets/icons/slackbot.svg" alt="slackbot">
+                    <span>Slackbot</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="messages-icon" aria-label="Open krushna rathod chat" role="button">
+                    <div class="message-image-container">
+                        <img src="/assets/images/header-image.png" alt="profile image - krushna rathod">
+                        <div class="message-green-dot" role="status" aria-label="online"></div>
+                    </div>
+                    <span>Krushna Rathod <span id="message-pointer">you</span></span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="messages-icon" aria-label="Open ali sarraf chat" role="button">
+                    <div class="message-image-container">
+                        <img src="/assets/icons/ali-sarraf.svg" alt="profile iamge - ali sarraf">
+                        <div class="message-green-dot" role="status" aria-label="online"></div>
+                    </div>
+                    <span>Ali Sarraf</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="messages-icon active-you" aria-label="Open decio emanuel chat" role="button">
+                    <div class="message-image-container">
+                        <img src="/assets/icons/decio.svg" alt="Profile image - decio emanuel">
+                        <div class="message-green-dot" role="status" aria-label="online"></div>
+                    </div>
+                    <span>Decio Emanuel</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="messages-icon" aria-label="add channels for message" role="button">
+                    <img src="/assets/icons/frame-33.svg" alt="add channel">
+                    <span>Add channels</span>
+                </a>
+             </li>
+            </ul>
+
+            <!-- sidebar apps -->
+             <ul id="apps">
+                <li>
+                    <a href="#" class="apps-icon" aria-label="Open apps" role="button">
+                        <img src="/assets/icons/open-channels-button.svg" alt="app dropdown">
+                        <span>Apps</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="apps-icon" aria-label="Open good app" role="button">
+                        <img src="/assets/icons/good-app.svg" alt="good app">
+                        <span>Good App</span>
+                    </a>
+                </li>
+             </ul>
+
+             <!-- sidebar call -->
+             <ul id="call-section">
+                <li class="call-section-name-logo">
+                    <a href="#" class="call-section-name" aria-label="Call section name" role="button">
+                        <span>Decio Emanuel</span>
+                        <img src="/assets/icons/dropdown.svg" alt="call dropdown">
+                    </a>
+                    <img src="/assets/icons/huddle-button.svg" alt="call settings" tabindex="0">
+                </li>
+             </ul>
+        </aside>
+       
+        <!-- Main content section -->
         <main class="main" aria-label="Main content">
             main
         </main>
-    </div>
+      </div>
 </body>
 </html>

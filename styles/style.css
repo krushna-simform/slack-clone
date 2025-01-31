@@ -7,6 +7,7 @@
 body{
     max-width: 120rem;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
@@ -27,8 +28,8 @@ body{
 /* aside */
 .aside{
     width: 15.25rem;
-    border: 1px solid black;
-    height: calc(100vh - 2.75rem);
+    min-height: calc(100vh - 2.75rem);
+    background-color: #3F0E40;
 }
 
 /* main */
