@@ -61,7 +61,6 @@
 }
 
 /* sidebar channels */
-
 #channels{
     padding: 0px 1rem 0px 0.625rem;
     border-bottom: #531d4f solid 1px;
@@ -89,7 +88,6 @@
 }
 
 /* sidebar messages */
-
 #messages{
     padding: 0 1rem 0 0.625rem;
     border-bottom: #531d4f solid 1px;
@@ -147,7 +145,6 @@
 }
 
 /* sidebar apps */
-
 #apps{
     padding: 0px 16px 0px 10px;
 }
