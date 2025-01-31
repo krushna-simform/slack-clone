@@ -41,6 +41,7 @@
 #tools{
     padding: 0 1rem 0 0.625rem;
     border-bottom: #531d4f solid 1px;
+    list-style: none;
 }
 
 #tools a{
@@ -64,6 +65,7 @@
 #channels{
     padding: 0px 1rem 0px 0.625rem;
     border-bottom: #531d4f solid 1px;
+    list-style: none;
 }
 
 #channels a{
@@ -91,6 +93,7 @@
 #messages{
     padding: 0 1rem 0 0.625rem;
     border-bottom: #531d4f solid 1px;
+    list-style: none;
 }
 
 .messages-icon{
@@ -147,6 +150,7 @@
 /* sidebar apps */
 #apps{
     padding: 0px 16px 0px 10px;
+    list-style: none;
 }
 
 .apps-icon{

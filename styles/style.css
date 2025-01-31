@@ -28,7 +28,7 @@ body{
 /* aside */
 .aside{
     width: 15.25rem;
-    height: calc(100vh - 2.75rem);
+    min-height: calc(100vh - 2.75rem);
     background-color: #3F0E40;
 }
 
