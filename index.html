@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/aside.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <title>Slack Skeleton UI</title>
 </head>
 <body>
@@ -223,7 +224,19 @@
        
         <!-- Main content section -->
         <main class="main" aria-label="Main content">
-            main
+            
+            <div id="top-section">
+                <div class="top-section-icon">
+                    <div class="top-section-image-container" tabindex="0">
+                        <img src="/assets/icons/decio.svg" alt="decio emanuel profile image" id="top-section-profile-image">
+                        <div id="top-section-green-dot" role="status" aria-label="Online"></div>
+                    </div>
+                    <a href="#" id="top-section-name" role="button" aria-label="Open decio emanuel profile">Decio Emanuel</a>
+                </div>
+                <a href="#" role="button" aria-label="Open notes">
+                    <img src="/assets/icons/add-note.svg" alt="add notes">
+                </a>
+            </div>
         </main>
       </div>
 </body>
