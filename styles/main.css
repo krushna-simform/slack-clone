@@ -255,6 +255,10 @@
     cursor: pointer;
 }
 
+#chat-edit-send-button :nth-child(1)>img{
+    margin-top: 0.2rem;
+}
+
 #chat-edit-send-button :nth-child(3)>img{
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.5rem;
 }
