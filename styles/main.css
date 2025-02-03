@@ -279,3 +279,20 @@
 #chat-edit-send-button :nth-child(3)>img{
     margin-bottom: 0.5rem;
 }
+
+.pipe-button{
+    position: relative;
+}
+
+.pipe-button::after{
+    content: "";
+    position: absolute;
+    background-color: #bdbdbd;
+    width: 0.05rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+}
+
+#link-button, #code-snippet-button, #camera-button, #no-activity-button{
+    margin-left: 1.2rem;
+}
