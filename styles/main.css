@@ -152,7 +152,7 @@
 
 /* main message  */
 #main-message{
-    padding: 17px 10px 17px 10px;
+    padding: 1.063rem 0.625rem 1.063rem 0.625rem;
 }
 
 .main-message-icon{
@@ -162,19 +162,19 @@
 }
 
 .main-message-icon>img{
-    width: 36px;
-    height: 36px;
-    border-radius: 5px;
-    margin-right: 10px;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.313rem;
+    margin-right: 0.625rem;
 }
 
 .main-message-section{
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .main-message-name{
-    margin-right: 16px;
+    margin-right: 1rem;
     font-weight: 600;
 }
 
@@ -185,11 +185,11 @@
 
 /* main chat edit */
 .chat-edit{
-    border: 2px solid #f8f8f8;
     height: 6.8rem;
     max-width: 90rem;
     margin: auto;
-    border-radius: 0.5rem;
+    padding: 0 0.625rem;
+    margin-bottom: 1rem;
 }
 
 #chat-edit-tools{
@@ -213,6 +213,8 @@
 #chat-edit-textbox{
     height: 2.375rem;
     padding: .5rem 1rem;
+    border-left: 2px solid #f8f8f8;
+    border-right: 2px solid #f8f8f8;
 }
 
 #chat-textbox{
@@ -226,6 +228,10 @@
     display: flex;
     justify-content: space-between;
     padding: 0.1rem 1rem;
+    border-left: 2px solid #f8f8f8;
+    border-right: 2px solid #f8f8f8;
+    border-bottom: 2px solid #f8f8f8;
+    border-radius: 0.5rem;
 }
 
 #chat-edit-call-config{
@@ -257,6 +263,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 0.3rem;
 }
 
 #chat-edit-send-button button{
