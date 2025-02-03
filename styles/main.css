@@ -129,6 +129,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+#date::before{
+    content: "";
+    height: 1px;
+    background-color: #dadada;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 #date-container{
