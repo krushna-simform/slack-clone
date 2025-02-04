@@ -30,6 +30,7 @@ body{
     width: 15.25rem;
     min-height: calc(100vh - 2.75rem);
     background-color: #3F0E40;
+    user-select: none;
 }
 
 /* main */

@@ -105,6 +105,7 @@
     color: #1264A3;
     background-color: #c2d9eb;
     padding: 0.125rem 0.188rem;
+    cursor: pointer;
 }
 
 #profile-info>button{
