@@ -6,18 +6,25 @@
     <meta name="description" content="Slack Skeleton UI - This Project is a single-page skeleton UI clone of slack's main conversation page.">
     <meta name="keywords" content="Slack, UI, Skeleton, Design, Chat">
     <meta name="author" content="Krushna Rathod">
+
+    <!-- Open Graph meta tags -->
     <meta property="og:title" content="Slack Skeleton UI">
     <meta property="og:description" content="Slack Skeleton UI - This Project is a single-page skeleton UI clone of slack's main conversation page.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/assets/images/cover_slack.jpg">
+
+    <!-- Twitter Card meta tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Slack Skeleton UI">
     <meta name="twitter:description" content="Slack Skeleton UI - This Project is a single-page skeleton UI clone of slack's main conversation page.">
     <meta name="twitter:image" content="/images/cover_slack.jpg">
+
     <link rel="icon" href="/assets/icons/slack.svg">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/aside.css">
+    <link rel="stylesheet" href="/styles/main.css">
+
     <title>Slack Skeleton UI</title>
 </head>
 <body>
@@ -223,7 +230,170 @@
        
         <!-- Main content section -->
         <main class="main" aria-label="Main content">
-            main
+            
+            <!-- top section name component -->
+            <div id="top-section">
+                <div class="top-section-icon">
+                    <div class="top-section-image-container" tabindex="0">
+                        <img src="/assets/icons/decio.svg" alt="decio emanuel profile image" id="top-section-profile-image">
+                        <div id="top-section-green-dot" role="status" aria-label="Online"></div>
+                    </div>
+                    <a href="#" id="top-section-name" role="button" aria-label="Open decio emanuel profile">Decio Emanuel</a>
+                </div>
+                <a href="#" role="button" aria-label="Open notes">
+                    <img src="/assets/icons/add-note.svg" alt="add notes">
+                </a>
+            </div>
+
+            <!-- add bookmark  -->
+            <a href="#" id="add-bookmark" aria-label="Add book mark" role="button"> 
+                <img src="/assets/icons/plus.svg" alt="add bookmark" id="add-bookmark-icon">
+                <span>Add a bookmark</span>
+            </a>
+
+            <!-- profile info -->
+            <div id="profile-info">
+                <div id="profile-info-image">
+                    <img src="/assets/icons/decio-1.svg" alt="profile image - dacio emanuel">
+                    <span>Decio Emanuel</span>
+                    <div id="profile-info-green-dot" aria-label="Online" role="status"></div>
+                </div>
+                <div id="profile-info-descri">
+                    <p>This conversation is just between <span tabindex="0">@Decio Emanuel</span> and you. Check out their profile to learn more about them.</p>
+                </div>
+                <button title="View profile" aria-label="View profile">View profile</button>
+            </div>
+
+            <!-- date-->
+            <div id="date">
+                <div id="date-container">Friday, January 31th</div>
+            </div>
+
+            <!-- main message -->
+            <ul id="main-message">
+                <li class="main-message-icon" tabindex="0">
+                    <img src="/assets/images/header-image.png" alt="profile image - krushna rathod">
+                    <div>
+                        <div class="main-message-section">
+                            <span class="main-message-name">Krushna Rathod</span>
+                            <span class="main-message-time">9:16 AM</span>
+                        </div>
+                        <p class="main-message-mess">hey mate! How are you?</p>
+                    </div>
+                </li>
+
+                <li class="main-message-icon" tabindex="0">
+                    <img src="/assets/icons/decio.svg" alt="profile image - decio emanuel">
+                    <div>
+                        <div class="main-message-section">
+                            <span class="main-message-name">Decio Emanuel</span>
+                            <span class="main-message-time">9:17 AM</span>
+                        </div>
+                        <p class="main-message-mess">Hey! I'm good, just fixing a bug in the API. How about you?</p>
+                    </div>
+                </li>
+
+                <li class="main-message-icon" tabindex="0">
+                    <img src="/assets/images/header-image.png" alt="profile image - krushna rathod">
+                    <div>
+                        <div class="main-message-section">
+                            <span class="main-message-name">Krushna Rathod</span>
+                            <span class="main-message-time">9:21 AM</span>
+                        </div>
+                        <p class="main-message-mess">Not bad, just refactoring some old code. It's a bit messay, but it's coming along</p>
+                    </div>
+                </li>
+
+                <li class="main-message-icon" tabindex="0">
+                    <img src="assets//icons/decio.svg" alt="profile image - decio emanuel">
+                    <div>
+                        <div class="main-message-section">
+                            <span class="main-message-name">Decio Emanuel</span>
+                            <span class="main-message-time">9:23 AM</span>
+                        </div>
+                        <p class="main-message-mess">Sonunds good! just finished setting up the CI/CD pipeline. It's working smoothly now.</p>
+                    </div>
+                </li>
+
+                <li class="main-message-icon" tabindex="0">
+                    <img src="/assets/images/header-image.png" alt="profile image - krushna rathod">
+                    <div>
+                        <div class="main-message-section">
+                            <span class="main-message-name">Krushna Rathod</span>
+                            <span class="main-message-time">9:30 AM</span>
+                        </div>
+                        <p class="main-message-mess">Nice! I'm about to start writing unit tests for the new module. Let's catch up later!</p>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- chat-text component  -->
+            <div class="chat-edit">
+                <div id="chat-edit-tools">
+                    <button title="Bold" aria-label="Bold">
+                        <img src="/assets/icons/bold.png" alt="bold">
+                    </button>
+                    <button title="Italic" aria-label="Italic">
+                        <img src="/assets/icons/italic.svg" alt="italic">
+                    </button>
+                    <button title="Strikethrough" class="pipe-button" aria-label="Strikethrough">
+                        <img src="/assets/icons/lang.svg" alt="strikethrough">
+                    </button>
+                    <button title="Link" id="link-button" aria-label="Link">
+                        <img src="/assets/icons/attach.svg" alt="link">
+                    </button>
+                    <button title="Numbered list" aria-label="Numbered List">
+                        <img src="/assets/icons/bullets-num.svg" alt="numbered list">
+                    </button>
+                    <button title="Bulleted list" class="pipe-button" aria-label="Bulleted List">
+                        <img src="/assets/icons/bullets.svg" alt="bulleted list">
+                    </button>
+                    <button title="Code Snippet" id="code-snippet-button" aria-label="Code snippet">
+                        <img src="/assets/icons/code.svg" alt="code snippet">
+                    </button>
+                    <button title="Code Block" aria-label="Code block">
+                        <img src="/assets/icons/code-edit.svg" alt="code block">
+                    </button>
+                </div>
+
+                <div id="chat-edit-textbox">
+                    <input type="text" id="chat-textbox" placeholder="Message Decio Emanuel" aria-label="Chat textbox">
+                </div>
+
+                <div id="chat-edit-call">
+                    <div id="chat-edit-call-config">
+                        <button id="chat-edit-plus" title="Action and apps" aria-label="Action and apps">
+                            <img src="/assets/icons/plus.svg" alt="add">
+                        </button>
+                        <button class="chat-buttons" title="Font size" aria-label="Font size">
+                            <img src="/assets/icons/fonts.svg" alt="font size">
+                        </button>
+                        <button class="chat-buttons" title="Emoji, GIFs and Stickers" aria-label="Emoji, GIFs & Stickers">
+                            <img src="/assets/icons/emoji.svg" alt="emoji">
+                        </button>
+                        <button class="chat-buttons pipe-button" title="Mention" aria-label="Mention">
+                            <img src="/assets/icons/mention.svg" alt="mention">
+                        </button>
+                        <button class="chat-buttons" id="camera-button" title="Camera" aria-label="Camera">
+                            <img src="/assets/icons/camera.svg" alt="camera">
+                        </button>
+                        <button class="chat-buttons pipe-button" title="Audio" aria-label="Audio">
+                            <img src="/assets/icons/audio-mike.svg" alt="audio">
+                        </button>
+                        <button class="chat-buttons" id="no-activity-button" title="No Activity" aria-label="No activity">
+                            <img src="/assets/icons/vector.svg" alt="no activity">
+                        </button>
+                    </div>
+                    <div id="chat-edit-send-button">
+                        <button title="Send (Ctrl+Enter)" >
+                            <img src="/assets/icons/send.svg" alt="send">
+                        </button>
+                        <button>
+                            <img src="/assets/icons/dropdown.svg" alt="dropdown">
+                        </button>
+                    </div>
+                </div>
+            </div>
         </main>
       </div>
 </body>

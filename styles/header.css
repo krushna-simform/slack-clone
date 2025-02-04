@@ -42,14 +42,14 @@
     height: 1.625rem;
     width: 25rem;
     border-radius: 0.3rem;
-    text-align: center;
     margin-left: 0.625rem;
+    padding: 0 0.3rem;
     color: #ffffff;
     transition: width 0.3 ease; /* easy transition when media query apply to searchbar */
 }
 
 #header-searchbar::placeholder {
-    align-items: center;
+    text-align: center;
     color: #CCCCCC;
     font-size: 0.8rem;
 }
