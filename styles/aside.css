@@ -39,9 +39,14 @@
 
 /* sidebar tools */
 #tools{
-    padding: 0 1rem 0 0.625rem;
+    padding: 0.4rem 1rem 0.4rem 0.625rem;
     border-bottom: #531d4f solid 1px;
     list-style: none;
+}
+
+#tools li{
+    padding: 0.45rem 0rem;
+    transition: background-color 0.1s ease;
 }
 
 #tools a{
@@ -52,13 +57,17 @@
 .tools-icon{
     display: flex;
     align-items: center;
-    margin: 0.875rem 0 0.875rem 0;
 }
 
 .tools-icon>img{
     width: 1.125rem;
     height: 1.125rem;
     margin-right: 0.625rem;
+}
+
+#tools li:hover{
+    background-color: #5a195b;
+    border-radius: 0.5rem;
 }
 
 /* sidebar channels */
