@@ -13,6 +13,10 @@
     cursor: pointer;
 }
 
+#project-title-name:hover{
+    opacity: 0.8;
+}
+
 #project-title-name>p{
     color: #ffffff;
     font-size: 1.125rem;
@@ -37,15 +41,19 @@
     cursor: pointer;
 }
 
+#edit-logo:hover{
+    opacity: 0.8;
+}
+
 /* sidebar tools */
 #tools{
-    padding: 0.4rem 1rem 0.4rem 0.625rem;
+    padding: 0.4rem 0.3rem 0.4rem 0.3rem;
     border-bottom: #531d4f solid 1px;
     list-style: none;
 }
 
 #tools li{
-    padding: 0.45rem 0rem;
+    padding: 0.45rem 0.3rem;
     transition: background-color 0.1s ease;
 }
 
@@ -72,9 +80,14 @@
 
 /* sidebar channels */
 #channels{
-    padding: 0px 1rem 0px 0.625rem;
+    padding: 0.4rem 0.3rem 0.4rem 0.3rem;
     border-bottom: #531d4f solid 1px;
     list-style: none;
+}
+
+#channels li{
+    padding: 0.45rem 0.3rem;
+    transition: background-color 0.1s ease;
 }
 
 #channels a{
@@ -84,7 +97,6 @@
 .channels-icon{
     display: flex;
     align-items: center;
-    margin: 0.875rem 0 0.875rem 0;
 }
 
 .channels-icon>img{
@@ -98,17 +110,26 @@
     font-size: 0.938rem;
 }
 
+#channels li:hover{
+    background-color: #5a195b;
+    border-radius: 0.5rem;
+}
+
 /* sidebar messages */
 #messages{
-    padding: 0 1rem 0 0.625rem;
+    padding: 0.4rem 0.3rem 0.4rem 0.3rem;
     border-bottom: #531d4f solid 1px;
     list-style: none;
+}
+
+#messages li{
+    padding: 0.3rem 0.3rem;
+    transition: background-color 0.1s ease;
 }
 
 .messages-icon{
     display: flex;
     align-items: center;
-    margin: 0.625rem 0 0.625rem 0;
     text-decoration: none;
     color: #ece4e4;
     font-size: 15px;
@@ -156,16 +177,26 @@
     border-radius: 0.375rem;
 }
 
+#messages li:hover{
+    background-color: #5a195b;
+    border-radius: 0.5rem;
+}
+
 /* sidebar apps */
 #apps{
-    padding: 0px 16px 0px 10px;
+    padding: 0.4rem 0.3rem 0.4rem 0.3rem;
     list-style: none;
+}
+
+#apps li{
+    padding: 0.45rem 0.3rem;
+    transition: background-color 0.1s ease;
 }
 
 .apps-icon{
     display: flex;
     align-items: center;
-    margin: 0.875rem 0 0.875rem 0;
+    /* margin: 0.875rem 0 0.875rem 0; */
     text-decoration: none;
     color: #ece4e4;
     font-size: 0.938;
@@ -175,6 +206,11 @@
     width: 1.125rem;
     height: 1.125rem;
     margin-right: 0.625rem;
+}
+
+#apps li:hover{
+    background-color: #5a195b;
+    border-radius: 0.5rem;
 }
 
 /* side bar call */
@@ -199,4 +235,9 @@
 
 .call-section-name>span {
     margin-right:0.6rem ;
+}
+
+#call-section img:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
